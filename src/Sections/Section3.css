@@ -33,7 +33,9 @@
     height: 100%;
     max-width: 600px;
     max-height: 700px;
-    border-radius: 20px;
+    border-radius: 1rem;
+    object-fit:cover;
+    aspect-ratio: 600 / 700;
 }
 
 .text{
@@ -47,19 +49,21 @@
     width: 45%;
     margin: 0.5rem;
 }
-.text h3{
+/* .text h3{
     align-self: flex-start;
     padding: 0.8rem;
     margin: 0.8rem;
     font-size: 32px;
     text-align: left;
     color: #E48C57;
-}
+} */
 .text h4{
     align-self: flex-start;
     padding: 0.4rem 0.8rem;
     margin: 0.4rem 0.8rem;
     font-size: 26px;
+    font-family: 'poppins';
+    font-weight: 500;
     text-align: left;
     color: #E48C57;
 }
@@ -74,4 +78,51 @@
     /* border: 2px solid black; */
 }
 
+
+/* taking standard tablet size as 1024 width */
+/* Assuming landscape view of the tablet */
+
+@media screen and (max-width: 1024px){
+
+    .topBar{
+        /* flex-direction: column-reverse; */
+    }
+    .S3-img1{
+        /* position: sticky;
+        top: 1.5rem; */
+    }
+    .S3-img2{
+        /* position: sticky;
+        top: 1.5rem; */
+
+    }
+}
+@media screen and (max-width: 768px){
+
+    #Section3{
+        gap: 0px;
+    }
+
+    .topBar{
+        flex-direction: column-reverse; 
+        align-items: center;
+    }
+    .bottomBar{
+        flex-direction: column;
+        align-items:center;
+        justify-content: start;
+    }
+    .text, .image{
+        width: 95%;
+    }
+    .image{
+        height: 95%;
+        width: 95%;
+        padding: 0.5rem;
+    }
+    /* .image img{
+        max-height: 500px;
+        max-width: 400px;
+    } */
+}
 

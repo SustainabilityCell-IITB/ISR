@@ -57,3 +57,15 @@
     width: 5vw;
     background-color: transparent;
 }
+
+@media screen and (max-width: 1024px) {
+    .SideNav:hover{
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .SideNav:hover{
+        width: 40vw;
+    }
+}

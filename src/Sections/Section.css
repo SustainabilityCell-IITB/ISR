@@ -30,9 +30,29 @@
 
 }
 
+.text h3{
+    align-self: flex-start;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    font-size: 2rem;
+    text-align: left;
+    color: #E48C57;
+}
+
 .sdgImages img{
-    height: 88px;
-    width: 88px;
-    border-radius: 10px;
-    margin: 10px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+
+@media screen and (max-width: 425px) {
+    .Section p{
+        font-size: 0.9rem;
+    }
+    .text h3{
+        font-size: 1.5rem;
+    }
+
 }

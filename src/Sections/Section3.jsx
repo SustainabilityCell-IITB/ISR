@@ -11,10 +11,10 @@ function Section3() {
     <div className="Section" id="Section3">
 
       <div className="topBar">
-        <div className="image Section3-image1">
+        <div className="image S3-img1">
           <img src={S3img1} alt="" />
         </div>
-        <div className="text Section3-text1">
+        <div className="text S3-text1">
           <h3>3: Sustainable Living</h3>
           <div className="sdgImages">
             <img src={sdg7} alt="" />
@@ -54,7 +54,7 @@ function Section3() {
 
       
       <div className="bottomBar">
-        <div className="text">
+        <div className="text text2  ">
           <p>
             IIT Bombay has also taken initiatives to promote sustainable
             production and consumption practices on its campus. Waste
@@ -81,7 +81,7 @@ function Section3() {
             plant.
           </p>
         </div>
-        <div className="image">
+        <div className="image S3-img2">
           <img src={S3img2} alt="" />
         </div>
       </div>
