@@ -1,16 +1,24 @@
-import TempSection from "./Sections/TempSection.jsx"
+import Section1 from "./Sections/Section1.jsx";
 import Section3 from "./Sections/Section3.jsx";
-import Home from "./Sections/BannerSection.jsx"
-import "./MainBody.css"
+import Home from "./Sections/BannerSection.jsx";
+import IntroSection from "./Sections/IntroSection.jsx";
+import Section2 from "./Sections/Section2.jsx"
+import Section4 from "./Sections/Section4.jsx"
+import "./MainBody.css";
 
 function MainBody() {
   return (
     <div className="MainBody">
       <Home></Home>
-      <TempSection></TempSection>
-      <TempSection></TempSection>
+      <IntroSection></IntroSection>
+
+      <Section1></Section1>
+
+      <Section2></Section2>
+
       <Section3></Section3>
-      <TempSection></TempSection>
+
+      <Section4></Section4>
     </div>
   );
 }

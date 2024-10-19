@@ -1,0 +1,73 @@
+#Section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    gap: 30px ;
+    padding: 1rem 0;
+}
+
+.topBar, .bottomBar{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    /* border: 2px solid black; */
+}
+
+/* Change the name of the class such that I know which image - S2img1 */
+/* Keep it .section-image if it applies to all the images in the section */
+.section-image{  
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 100%;
+    width: 95%;
+    margin: 0.5rem;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    height: auto;
+    /* width: 45%; */
+    margin: 0.5rem;
+}
+
+.text h3{
+    align-self: flex-start;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    font-size: 32px;
+    text-align: left;
+    color: #E48C57;
+}
+
+.text h4{
+    align-self: flex-start;
+    padding: 0.4rem 0.8rem;
+    margin: 0.4rem 0.8rem;
+    font-size: 26px;
+    text-align: left;
+    color: #E48C57;
+}
+.sdgImages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+    /* border: 2px solid black; */
+}
+
+

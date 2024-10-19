@@ -5,4 +5,19 @@
     height: 100vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    background-color: white;
+}
+
+.Mainbody br{
+    height: 10px;
+    width: 10px;
+    background-color: black ;
+    border: 2px solid black;
+}
+
+.BreakLine{
+    content:'';
+    border: 10px solid black;
+    min-width: 100px;
+
 }
