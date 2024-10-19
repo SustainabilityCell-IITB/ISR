@@ -82,21 +82,6 @@
 /* taking standard tablet size as 1024 width */
 /* Assuming landscape view of the tablet */
 
-@media screen and (max-width: 1024px){
-
-    .topBar{
-        /* flex-direction: column-reverse; */
-    }
-    .S3-img1{
-        /* position: sticky;
-        top: 1.5rem; */
-    }
-    .S3-img2{
-        /* position: sticky;
-        top: 1.5rem; */
-
-    }
-}
 @media screen and (max-width: 768px){
 
     #Section3{
@@ -120,9 +105,6 @@
         width: 95%;
         padding: 0.5rem;
     }
-    /* .image img{
-        max-height: 500px;
-        max-width: 400px;
-    } */
+
 }
 
