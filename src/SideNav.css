@@ -5,12 +5,12 @@
     left: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     height: 100vh;
     width: 5vw;
-    background-color: #D9D9D9;
+    background-color: #3D4E48;
     box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0.25);
     margin: 0px;
 
@@ -18,7 +18,7 @@
 }
 
 .SideNav:hover{
-    width: 10vw;
+    width: 25vw;
 }
 
 
@@ -26,24 +26,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    background-color: #D9D9D9;
+    color: white;
+    background-color: #3D4E48;
     opacity: 0;
 
-    font-family: 'inter';
-    font-size: 16px;
+    font-family: 'poppins';
+    font-size: 0.9rem;
     font-weight: 500;
-
+    overflow: hidden;
+    text-wrap:nowrap ;
 
     height: 75px;
-    width: 100%;
+    width: 95%;
     margin: 0px;
+    padding: 0.5rem;
     
-    transition: all 300ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
 .SideNav:hover a{
     opacity: 1;
+    overflow: hidden;
+    max-height: 75px;
 }
 .SideNav:hover a:hover{
     background-color: rgba(0, 0, 0, 0.05);
