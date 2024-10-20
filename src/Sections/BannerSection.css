@@ -1,6 +1,7 @@
 .BannerSection{
     background-image: url(../assets/images/BannerImage.png);
     background-size: cover;
+    background-position: center;
 }
 
 .BannerHeading{

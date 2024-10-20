@@ -1,6 +1,71 @@
 
 
-.IntroImg{
-    height: 700px;
-    width: 600px;
+.IntroSection{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: repeat(1fr);
+    gap: 10px;
+    /* border: 2px solid black ; */
 }
+
+.IntroText1{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
+    width: 95%;
+}
+
+
+.IntroText1 h2{
+    font-family: 'poppins';
+    font-size: 2.5rem;
+    color: #E07C3F;
+    text-align: left;
+    margin: 1rem 0.4rem;
+    padding: 0.4rem;
+}
+
+.IntroImg{
+    outline: 5px  solid #3D4E48;
+    border-radius: 10px;
+    padding: 1rem;
+    /* background-color: #E07C3F; */
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.IntroImg img{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 600 / 550;
+}
+
+
+.IntroQuote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    justify-self: center;
+    align-self: self-start;
+    background-color: lightgray;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+.IntroQuote .quote{
+    width: 80%;
+    font-size: 1rem;
+    color: #E07C3F;
+}
+.IntroQuote .person-name, .IntroQuote .person-info{
+    width: 80%;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+
+}
+

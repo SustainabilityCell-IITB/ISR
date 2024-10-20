@@ -4,12 +4,13 @@ function SideNav(){
     return(<>
         <div className = "SideNav">
             <a href="#Home">Home</a>
-            <a href="#Section1">Section 1</a>
-            <a href="#Section2">Section 2</a>
-            <a href="#Section3">Section 3</a>
-            <a href="#Section4">Section 4</a>
-            <a href="#Section5">Section 5</a>
-            <a href="#Section6">Section 6</a>
+            <a href="#IntroSection">About</a>
+            <a href="#Section1">1: Social Equality and Empowerment </a>
+            <a href="#Section2">2: Access to Basic Needs</a>
+            <a href="#Section3">3: Sustainable Living</a>
+            <a href="#Section4">4: Sustainable Growth</a>
+            <a href="#Section5">5: Holistic Environmental Protection</a>
+            <a href="#Section6">6: Governance and Global Partnerships</a>
         </div>
         <div className="SideNavFiller">
             

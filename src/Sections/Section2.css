@@ -19,6 +19,12 @@
 
 /* Change the name of the class such that I know which image - S2img1 */
 /* Keep it .section-image if it applies to all the images in the section */
+
+.section-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .section-image{  
     display: flex;
     align-items: center;
