@@ -9,10 +9,10 @@
     padding: 1rem 0;
 }
 
-.topBar, .bottomBar{
+#Section2 .topBar, #Section2 .bottomBar{
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     gap: 10px;
     /* border: 2px solid black; */
 }
@@ -32,7 +32,7 @@
     /* border: 2px solid black; */
     border-radius: 10px;
     height: 100%;
-    width: 95%;
+    width: 90%;
     margin: 0.5rem;
 }
 
@@ -76,4 +76,8 @@
     /* border: 2px solid black; */
 }
 
-
+@media screen and (max-width: 768px) {
+    #Section2 .topBar, #Section2, .bottomBar{
+        flex-direction: column;
+    }
+}
