@@ -7,3 +7,12 @@
     scroll-behavior: smooth;
     background-color: white;
 }
+
+hr{
+    width: 50%;
+    height: 5px;
+    margin: 30px auto;
+    background-color: rgba(61, 78, 72, 0.1);
+    border: none;
+    border-radius: 5px;
+}

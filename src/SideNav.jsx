@@ -3,6 +3,11 @@ import './SideNav.css'
 function SideNav(){
     return(<>
         <div className = "SideNav">
+            <div className='hamburger-button'>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <a href="#Home">Home</a>
             <a href="#IntroSection">About</a>
             <a href="#Section1">1: Social Equality and Empowerment </a>

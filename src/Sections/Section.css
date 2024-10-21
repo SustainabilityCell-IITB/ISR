@@ -1,3 +1,9 @@
+/* Colors used */
+
+/* Dark Green -   #3D4E48 */
+/* Orange     -   #E48C57 */
+
+
 .Section{
     display: flex;
     align-items: center;
@@ -9,7 +15,7 @@
 
     min-height: 100vh;
     width: 100%;
-    border-bottom: 3px solid black;
+    /* border-bottom: 3px solid black; */
 
     margin: 0px;
     padding: 0px;
@@ -41,7 +47,7 @@
 .sdgImages img{
     height: 5rem;
     width: 5rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin: 1rem;
 }
 

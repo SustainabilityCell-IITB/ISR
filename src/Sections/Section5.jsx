@@ -5,6 +5,8 @@ import SDG14 from "../assets/images/sdg14.svg";
 import SDG15 from "../assets/images/sdg15.svg";
 import S5img1 from "../assets/images/S5img1.png";
 
+import "./Section.css"
+
 const Section5 = () => {
   return (
     <div className="container"  id="Section5">
