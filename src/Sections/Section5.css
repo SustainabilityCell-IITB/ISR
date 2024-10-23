@@ -17,11 +17,6 @@
   border-radius: 8px;
 }
 
-.top-left h1 {
-    color: #D9574B;
-    font-size: 32px;
-}
-
 /* Top right part: SDG icons, written content, and quote */
 .sdg-icons {
   display: flex;
