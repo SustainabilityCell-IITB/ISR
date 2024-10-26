@@ -4,7 +4,6 @@
   grid-template-rows: auto auto auto;
   gap: 20px;
   padding: 20px;
-  font-family: Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -17,12 +16,16 @@
   border-radius: 8px;
 }
 
-/* Top right part: SDG icons, written content, and quote */
-.sdg-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
+.top-left h1 {
+  color: #D9574B;
+  font-size: 32px;
+}
+
+.top-left p{
+  color: #333;
+  font-size: 16px;
+  line-height: 1.3rem;
+  font-weight: 500;
 }
 
 .top-right {
@@ -36,8 +39,39 @@
   justify-content: center;
 }
 
-.sdg-icons img {
-  width: 100px;
+.top-right p{
+  color: #333;
+  font-size: 16px;
+  line-height: 1.3rem;
+  font-weight: 500;
+}
+
+.IntroQuote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  justify-self: center;
+  align-self: self-start;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 2rem 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.IntroQuote .quote{
+  width: 80%;
+  font-size: 1rem;
+  color: #E07C3F;
+}
+
+.IntroQuote .person-name, .IntroQuote .person-info{
+  width: 80%;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
 }
 
 .quote {
@@ -69,12 +103,16 @@
   border-radius: 8px;
 }
 
-h2.bottom-left {
-  font-size: 34.6666px;
+.bottom-left h2 {
+  color: #D9574B;
+  font-size: 26px;
 }
 
-p.bottom-left {
-  font-size: 21.33px;
+.bottom-left p{
+  color: #333;
+  font-size: 16px;
+  line-height: 1.3rem;
+  font-weight: 500;
 }
 
 /* Bottom right part: Remaining content of Research and Development */
@@ -84,6 +122,13 @@ p.bottom-left {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
+}
+
+.bottom-right p{
+  color: #333;
+  font-size: 16px;
+  line-height: 1.3rem;
+  font-weight: 500;
 }
 
 /* Media query for responsiveness */
