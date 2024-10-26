@@ -22,10 +22,12 @@ function Footer() {
           </ul>
         </div>
         <div className="footer-section">
-          <h4>Company</h4>
+          <h4>Contact Us</h4>
           <ul>
-            <li><a href='lmao'>About Us</a></li>
-            <li><a href='lmao'>Contact Us</a></li>
+            <li><a href='lmao'>Himank: 9009090909</a></li>
+            <li><a href='lmao'>Jakher: 9009090909</a></li>
+            <li><a href='lmao'>Himank: himank@himank</a></li>
+            <li><a href='lmao'>Jakher: jakher@jakher</a></li>
           </ul>
         </div>
         <div className="footer-section">
