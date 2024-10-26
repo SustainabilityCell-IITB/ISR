@@ -24,7 +24,7 @@ const Section6 = () => {
 
       {/* Top right: SDG Icons and Image */}
       <div className="section top-right">
-        <div className="sdg-icons">
+        <div className="sdgImages">
           <img src={SDG16} alt="SDG 16" className="sdg-icon" />
           <img src={SDG17} alt="SDG 17" className="sdg-icon" />
         </div>
