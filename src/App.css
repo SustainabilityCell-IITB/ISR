@@ -3,7 +3,7 @@
   width: auto;
   /* margin: 0 auto; */
   /* padding: 2rem; */
-  text-align: center;
+  text-align: justify;
   display: flex;
   flex-direction: row;
 }
