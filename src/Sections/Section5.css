@@ -107,6 +107,7 @@
 .bottom-left h2 {
   color: #D9574B;
   font-size: 26px;
+  text-align: left;
 }
 
 .bottom-left p{
@@ -170,6 +171,10 @@
 
   .middle img {
     width: 100%;
+  }
+
+  .bottom-left h2{
+    text-align: left;
   }
 }
 
