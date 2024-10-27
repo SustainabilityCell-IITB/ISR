@@ -128,6 +128,14 @@
     .top-left, .bottom-left, .top-right, .bottom-right {
         padding: 10px; /* Adjust padding for smaller screens */
     }
+
+    .top-left h2{
+        color: #E48C57;
+    }
+
+    .bottom-right h3{
+        color: #E48C57;
+    }
 }
 
 /* Mobile View - Stacking Sections Vertically */
@@ -161,6 +169,7 @@
     /* Adjust text sizes */
     .top-left h2, .bottom-right h3 {
         font-size: 24px;
+        color: #E48C57;
     }
 
     .top-left p, .bottom-right p {
