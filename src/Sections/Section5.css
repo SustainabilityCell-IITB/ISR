@@ -176,6 +176,11 @@
 
   .bottom-left h2{
     text-align: left;
+    color: #E48C57;
+  }
+
+  .top-left h1{
+    color: #E48C57;
   }
 }
 
@@ -194,5 +199,14 @@
 
   .quote {
     font-size: 14px;
+  }
+
+  .bottom-left h2{
+    text-align: left;
+    color: #E48C57;
+  }
+
+  .top-left h1{
+    color: #E48C57;
   }
 }
