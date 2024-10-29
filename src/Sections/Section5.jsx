@@ -9,7 +9,7 @@ import "./Section.css"
 
 const Section5 = () => {
   return (
-    <div className="container">
+    <div className="container" id="Section5">
   {/* Top left part: Heading and written content */}
   <div className="top-left">
     <h1>5: Holistic Environmental Protection</h1>
