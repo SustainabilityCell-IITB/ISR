@@ -21,7 +21,7 @@ function Footer() {
             <li><a href='https://gymkhana.iitb.ac.in/~suscell/'>Main Website</a></li>
           </ul>
         </div>
-        {/*}
+        {/*
         <div className="footer-section">
           <h4>Contact Us</h4>
           <ul>
