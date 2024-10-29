@@ -1,3 +1,6 @@
+#Section6 {
+    margin-left: 35px;
+}
 /* General container setup */
 .dashboard-container {
     display: grid;
