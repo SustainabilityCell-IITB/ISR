@@ -27,7 +27,7 @@ function Footer() {
             <li>Himank: 98867 71001</li>
             <li>himank29@gmail.com</li>
             <li>Jakher: 99292 03844</li>
-            <li>Jakher: jakher@jakher</li>
+            <li>jakher@jakher</li>
           </ul>
         </div>
         <div className="footer-section">
