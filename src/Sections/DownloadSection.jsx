@@ -19,8 +19,8 @@ function DownloadSection() {
         </div>
       </div>
       <hr />
-      <div className="DownloadContainer subsection">
-        <a href="">Download the Booklet</a>
+      <div className="Download-Container subsection">
+        <a href="/ISR/src/assets/ISR-Booklet-PDF.pdf" target="_blank" >Download the Booklet</a>
       </div>
     </div>
   );
