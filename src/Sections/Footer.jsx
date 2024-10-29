@@ -11,7 +11,7 @@ function Footer() {
       <div className="footer-grid">
         <div className="footer-left">
           <div className="logo"><img src={Logo}></img></div>
-          <p>© Sutainability Cell IITB</p>
+          <p>© Sustainability Cell IITB</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
@@ -21,6 +21,7 @@ function Footer() {
             <li><a href='https://gymkhana.iitb.ac.in/~suscell/'>Main Website</a></li>
           </ul>
         </div>
+        {/*}
         <div className="footer-section">
           <h4>Contact Us</h4>
           <ul>
@@ -36,6 +37,7 @@ function Footer() {
             <li><a href='lmao'>Feedback Form</a></li>
           </ul>
         </div>
+        */}
         <div className="footer-section">
           <h4>Follow us on</h4>
             <ul>
