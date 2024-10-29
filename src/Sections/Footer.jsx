@@ -18,16 +18,16 @@ function Footer() {
           <ul>
             <li><a href='lmao'>ISR Report (Complete)</a></li>
             <li><a href='lmao'>ISR Report (Summary)</a></li>
-            <li><a href='lmao'>Main Website</a></li>
+            <li><a href='https://gymkhana.iitb.ac.in/~suscell/'>Main Website</a></li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
           <ul>
-            <li><a href='lmao'>Himank: 98867 71001</a></li>
-            <li><a href='lmao'>himank29@gmail.com</a></li>
-            <li><a href='lmao'>Jakher: 99292 03844</a></li>
-            <li><a href='lmao'>Jakher: jakher@jakher</a></li>
+            <li>Himank: 98867 71001</li>
+            <li>himank29@gmail.com</li>
+            <li>Jakher: 99292 03844</li>
+            <li>jakher@jakher</li>
           </ul>
         </div>
         <div className="footer-section">
