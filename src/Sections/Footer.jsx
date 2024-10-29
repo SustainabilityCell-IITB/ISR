@@ -24,9 +24,9 @@ function Footer() {
         <div className="footer-section">
           <h4>Contact Us</h4>
           <ul>
-            <li><a href='lmao'>Himank: 9009090909</a></li>
-            <li><a href='lmao'>Jakher: 9009090909</a></li>
-            <li><a href='lmao'>Himank: himank@himank</a></li>
+            <li><a href='lmao'>Himank: 98867 71001</a></li>
+            <li><a href='lmao'>himank29@gmail.com</a></li>
+            <li><a href='lmao'>Jakher: 99292 03844</a></li>
             <li><a href='lmao'>Jakher: jakher@jakher</a></li>
           </ul>
         </div>
@@ -39,9 +39,9 @@ function Footer() {
         <div className="footer-section">
           <h4>Follow us on</h4>
             <ul>
-                <a><img src={Instagram}></img></a>
-                <a><img src={LinkedIn}></img></a>
-                <a><img src={Facebook}></img></a>
+                <a href="https://www.instagram.com/sustainabilitycell/"><img src={Instagram}></img></a>
+                <a href="https://www.linkedin.com/company/sustainabilitycell/mycompany/"><img src={LinkedIn}></img></a>
+                <a href="https://www.facebook.com/SustainabilityCell/"><img src={Facebook}></img></a>
             </ul>
 
           <div className="social-icons">
