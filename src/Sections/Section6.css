@@ -100,6 +100,11 @@
 
 /* Tablet View */
 @media (max-width: 1024px) {
+    #Section6 {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+
     .dashboard-container {
         display: grid;
         grid-template-columns: 1fr; /* Single column layout */
@@ -144,6 +149,11 @@
 
 /* Mobile View - Stacking Sections Vertically */
 @media (max-width: 768px) {
+    #Section6 {
+        margin-left: -10px;
+        margin-right: -10px;
+      }
+
     .dashboard-container {
         display: grid;
         grid-template-columns: 1fr; /* Single column layout */
