@@ -7,9 +7,20 @@ import Section5 from "./Sections/Section5.jsx";
 import Section6 from "./Sections/Section6.jsx";
 import Footer from "./Sections/Footer.jsx";
 import Section1 from "./Sections/Section1.jsx";
+import DownloadSection from "./Sections/DownloadSection.jsx";
 import "./MainBody.css";
 
 function MainBody() {
+
+
+  // const SectionObj = document.getElementsByClassName('Section')
+  // console.log(SectionObj)
+
+  // SectionObj.forEach(element => {
+  //   console.log(element.getBoundingClientRect)
+  // });
+
+
   return (
     <div className="MainBody">
       <Home></Home>
@@ -26,6 +37,8 @@ function MainBody() {
       <Section5></Section5>
       <hr />
       <Section6></Section6>
+      <hr />
+      <DownloadSection></DownloadSection>
       <Footer></Footer>
     </div>
   );

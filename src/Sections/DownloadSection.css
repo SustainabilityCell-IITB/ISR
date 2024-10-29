@@ -1,0 +1,108 @@
+#DownloadSection{
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    /* outline : 2px solid lightgray; */
+    color: white;
+}
+
+.DownloadSection .subsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    /* outline: 3px solid lightgray; */
+}
+
+/* Contacts CSS */
+
+.DownloadSection .Contacts-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    /* border-right: 2px solid gray; */
+}
+
+.DownloadSection hr{
+    width: 4px;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+.Contacts-Container h4{
+    font-size: 2rem;
+    color: #E48C57;
+    border-bottom: 3px solid #E48C57;
+}
+
+.Contacts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 60%;
+    width: 100%;
+}
+.Contact-Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 40%;
+    border-radius: 1rem;
+    background-color: #3D4E48;
+    padding: 0.4rem;
+    margin: 0.4rem;
+}
+.Contact-Details p{
+    padding: 0.3rem;
+    margin: 0;
+}
+
+.Contact-Details .Position{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.Contact-number{
+    /* color: rgb(118, 185, 240, 0.9); */
+    color: lightgray;
+}
+.Contact-number:hover{
+    color:white;
+}
+
+/* Download Container CSS */
+
+
+.DownloadContainer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 40%;
+    border-radius: 1rem;
+    background-color: #76B9F0;
+
+    font-family: 'poppins';
+    font-size: 1rem;
+    color: #3D4E48;
+    
+    box-shadow: 10px 10px 10px 0px #283E4F;
+    transition: all 200ms ease-in-out;
+}
+
+.DownloadContainer a:hover{
+    box-shadow: 15px 15px 20px #283E4F;
+    transform: translate(-5px, -5px);
+    color: #3D4E48;
+    background-color: rgba(157, 205, 90, 0.7);
+}
+
+
