@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(117, 117, 117);
+    background-color: #0a1d5f;
     color: #ffffff;
     padding: 20px;
     /* width: 100%; */
@@ -10,7 +10,7 @@
   
   .footer-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Divide the footer into 5 equal columns */
+    grid-template-columns: repeat(3, 1fr); /* Divide the footer into 5 equal columns */
     gap: 20px;
   }
   

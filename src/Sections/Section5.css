@@ -140,6 +140,11 @@
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
+  #Section5 {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -189,6 +194,11 @@
 }
 
 @media (max-width: 480px) {
+  #Section5 {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
   .sdg-icons img {
     width: 80px;
   }
