@@ -13,7 +13,7 @@ function Footer() {
           <div className="logo"><img src={Logo}></img></div>
           <p>© Sustainability Cell IITB</p>
         </div>
-        {/* <div className="footer-section">
+        <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
             <li><a href='lmao'>ISR Report (Complete)</a></li>
@@ -53,7 +53,7 @@ function Footer() {
             <i className="fab fa-medium"></i>
             <i className="fab fa-telegram"></i>
           </div>
-        </div> */}
+        </div>
       </div>
     </footer>
   );
