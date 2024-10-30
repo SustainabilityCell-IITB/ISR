@@ -16,43 +16,17 @@ function Footer() {
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href='lmao'>ISR Report (Complete)</a></li>
-            <li><a href='lmao'>ISR Report (Summary)</a></li>
-            <li><a href='https://gymkhana.iitb.ac.in/~suscell/'>Main Website</a></li>
+            <li><a href="#">Move to the top</a></li>
+            <li><a href='https://gymkhana.iitb.ac.in/~suscell/'>Sustainability Cell IITB</a></li>
           </ul>
         </div>
-        {/*
-        <div className="footer-section">
-          <h4>Contact Us</h4>
-          <ul>
-            <li>Himank: 98867 71001</li>
-            <li>himank29@gmail.com</li>
-            <li>Jakher: 99292 03844</li>
-            <li>jakherh.iitb@gmail.com</li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h4>Feedback</h4>
-          <ul>
-            <li><a href='lmao'>Feedback Form</a></li>
-          </ul>
-        </div>
-        */}
-        <div className="footer-section">
+        <div className="footer-section SocialMedia-Container">
           <h4>Follow us on</h4>
             <ul>
                 <a href="https://www.instagram.com/sustainabilitycell/"><img src={Instagram}></img></a>
                 <a href="https://www.linkedin.com/company/sustainabilitycell/mycompany/"><img src={LinkedIn}></img></a>
                 <a href="https://www.facebook.com/SustainabilityCell/"><img src={Facebook}></img></a>
             </ul>
-
-          <div className="social-icons">
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-medium"></i>
-            <i className="fab fa-telegram"></i>
-          </div>
         </div>
       </div>
     </footer>
@@ -60,63 +34,3 @@ function Footer() {
 }
 
 export default Footer;
-
-{/*
-import React from 'react';
-import './Footer.css';
-import Facebook from './assets/Images/Facebook.png'; // Import the Facebook image
-import Instagram from './assets/Images/Instagram.png'; // Import the Instagram image
-import LinkedIn from './assets/Images/LinkedIn.png'; // Import the LinkedIn image
-
-function Footer() {
-  return (
-    <footer className="footer">
-      <div className="footer-grid">
-        <div className="footer-left">
-          <div className="logo"><img src={Facebook}></img></div>
-          <p>© Sutainability Cell IITB</p>
-        </div>
-        <div className="footer-section">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href='lmao'>ISR Report (Complete)</a></li>
-            <li><a href='lmao'>ISR Report (Summary)</a></li>
-            <li><a href='lmao'>Main Website</a></li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h4>Company</h4>
-          <ul>
-            <li><a href='lmao'>About Us</a></li>
-            <li><a href='lmao'>Contact Us</a></li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h4>Feedback</h4>
-          <ul>
-            <li><a href='lmao'>Feedback Form</a></li>
-          </ul>
-        </div>
-        <div className="footer-section">
-          <h4>Follow us on</h4>
-            <ul>
-                <a><img src={Instagram}></img></a>
-                <a><img src={LinkedIn}></img></a>
-                <a><img src={Facebook}></img></a>
-            </ul>
-
-          <div className="social-icons">
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-medium"></i>
-            <i className="fab fa-telegram"></i>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-}
-
-export default Footer;
-*/}
