@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="#">Move to the top</a></li>
+            <li><a href="#Home">Move to the top</a></li>
             <li><a href='https://gymkhana.iitb.ac.in/~suscell/'>Sustainability Cell IITB</a></li>
           </ul>
         </div>

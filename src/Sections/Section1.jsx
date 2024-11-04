@@ -27,10 +27,10 @@ function Section1({ pg }) {
         </p>
       </div>
       <div className="sdgImages">
-        <img src={sdg1} alt="" />
-        <img src={sdg2} alt="" />
-        <img src={sdg5} alt="" />
-        <img src={sdg10} alt="" />
+        <img src={sdg1} alt="" loading="lazy"/>
+        <img src={sdg2} alt="" loading="lazy" />
+        <img src={sdg5} alt="" loading="lazy"/>
+        <img src={sdg10} alt="" loading="lazy"/>
       </div>
       <div className="S1-image1">
         <img src={S1img1} alt="" />

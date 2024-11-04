@@ -1,6 +1,20 @@
 import './SideNav.css'
 
 function SideNav(){
+
+    // let isNavActive = false
+    // function toggleHamburger(){
+    //     console.log("clicked")
+    //     SideNav = document.querySelector(".SideNav")
+    //     console.log(SideNav)
+    //     if (!isNavActive){
+    //         SideNav.style.left == "100px"
+    //     }
+    //     else{
+    //         SideNav.style.left = "-100px"
+    //     }
+
+    // }
     return(<>
         <div className = "SideNav">
             <div className='hamburger-button'>

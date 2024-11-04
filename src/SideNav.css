@@ -77,6 +77,23 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .SideNav, .SideNavFiller{
+        position: absolute;
+        left: -100%;
+    }
+
+    .hamburger-button{
+        display: none;
+        position: fixed;
+        top: 35px;
+        left: 10px;
+    }
+
+    .hamburger-button div{
+        border-color: #3D4E48;
+    }
+
     .SideNav:hover{
         width: 20vw;
     }

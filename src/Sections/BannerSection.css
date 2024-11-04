@@ -38,6 +38,30 @@
     font-weight: 500;
 }
 
+.DownloadIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: white ;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 20px black;
+    cursor: pointer;
+    border-radius: 5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.DownloadIcon a{
+    height: inherit;
+}    
+.DownloadIcon a img{
+    height: 100%;
+    width: 100%;
+}
+
+
 @media screen and (max-width: 550px) {
     .BannerHeading{
         left: 0px;
